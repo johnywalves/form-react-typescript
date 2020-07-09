@@ -1,0 +1,54 @@
+.header {
+  padding-top: 1rem;
+}
+
+.box {
+  margin-top: 1rem;
+}
+
+.spaced {
+  margin-right: 1rem;
+}
+
+.text-muted,
+.required {
+  color: #ff0000cc !important;
+}
+
+.commands {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-table {
+  font-size: 1.5rem;
+  margin-left: .5rem;
+  cursor: pointer;
+}
+
+.btn-table:hover {
+  opacity: .5;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.fade-transition-enter {
+  opacity: 0;
+}
+
+.fade-transition-enter-active {
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.fade-transition-exit {
+  opacity: 1;
+}
+
+.fade-transition-exit-active {
+  opacity: 0;
+  transition: opacity .3s;
+}
